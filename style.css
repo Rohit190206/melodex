@@ -90,15 +90,60 @@ font-weight: bold;
 .main-container{
     display: flex;
 }
+
+/* side bar */
 .side-bar{
     width: 25vw;
     height: 700px;
     background-color: aliceblue;
     margin-left: px;
     margin-top: 5px;
-    border-radius: px;
+    /* border-radius: px; */
+    /* padding: 7px; */
+
     
 }
+.side-bar .home{
+    width: 97%;
+    height: 50px;
+    margin: 5px;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+}
+
+.song-lang{
+    display: flex;
+}
+
+.language{
+    width: 180px;
+    height: 90px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    margin: 5px;
+    position: relative;
+     overflow: hidden;
+}
+.sidebarpic{
+    width: 90px;
+    height: 80px;
+    rotate: -40deg;
+    overflow: hidden;
+    position: absolute;
+    top: 25px;
+    right: -19px;
+    border-radius: 5px;
+}
+
+.language p{
+    color: white;
+    position: absolute;
+    top: 35px;
+    font-weight: bold;
+    font-size: 18px;
+    left: 20px;
+}
+/* main bar */
 .main-bar{
     width:75vw;
     height: 900px;
